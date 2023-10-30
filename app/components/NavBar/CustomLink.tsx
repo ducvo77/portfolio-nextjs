@@ -11,7 +11,6 @@ interface CustomLinkProps {
 
 export default function CustomLink({ href, title }: CustomLinkProps) {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <Link href={href} className="relative group">
