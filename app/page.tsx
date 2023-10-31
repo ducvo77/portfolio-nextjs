@@ -19,7 +19,7 @@ export default function Home() {
       <div className="w-1/2 flex flex-col gap-6">
         <AnimatedText
           text="Turning Vision Into Reality With Code And Design."
-          className="text-6xl text-left"
+          className="!text-6xl text-left"
         />
         <p className="text-base font-medium">
           As a skilled full-stack developer, I am dedicated to turning ideas
