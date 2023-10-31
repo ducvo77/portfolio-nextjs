@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.className} bg-light w-full min-h-screen`}>
         <NavBar />
-        <MainLayout>{children}</MainLayout>
+        <MainLayout className="py-10 relative">{children}</MainLayout>
         <Footer />
       </body>
     </html>
